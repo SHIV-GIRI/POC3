@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+	background-color: brown;
+	color: white;
+	text-align: center;
+	padding: 2-px;
+}
+
+body {
+	background-color: turquoise;
+}
+
+table {
+	width: 50%;
+	border-collapse: collapse;
+	background-color: #f1f1c1;
+	border-spacing: 5px;
+}
+
+table, tr, td {
+	border: 1px solid blue;
+}
+
+th, td {
+	padding: 10px;
+}
+</style>
+</head>
+<body>
+	<form name="f1" action="RegUser.jsp">
+		<h1>Registration page</h1>
+		<table align=center>
+
+			<tr>
+				<td><label for="name"> Enter The name</label></td>
+				<td><input type=text name="name"></td>
+			</tr>
+
+			<tr>
+				<td><label for="upass"> Enter The Password</label></td>
+				<td><input type=text name="upass"></td>
+			</tr>
+
+			<tr>
+				<td colspan=2 align=center><input type=submit value=ADD
+					name="add User"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
